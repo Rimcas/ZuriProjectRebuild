@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 function Prozu() {
  
     return (
-      <div>
+      <div id="/contact">
         <div className="wrapper">
     
         <img src={dpp1} id="shareBtn"/>
@@ -54,7 +54,7 @@ function Prozu() {
         </div>
 
         <div id="contact">
-        <Link to="/contact">Contact Me</Link>
+        <a href="/contact">Contact Me</a>
         </div>
 
         </main>
@@ -62,7 +62,7 @@ function Prozu() {
 
         <img src={dp2} id="image2"/>
         <img src={dp22} id="image22"/>
-      
+
         </div>
         <footer>
         <img src={dp3}/>
