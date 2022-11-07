@@ -1,0 +1,175 @@
+*{
+    text-decoration: none;
+}
+.wrapper{
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+#shareBtn{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    border-style: dotted;
+    border-radius: 50%;
+    padding: 0.2rem;
+    border-color: #848586;
+  }
+
+  #menuBtn{
+    display: none;
+  }
+
+
+a:visited{
+    color: #101828;
+}
+
+#profile__img {
+    width: 100px;
+    border: 1px solid #eaecf0;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  main a{
+    color: #101828;
+  }
+#twitter{
+    font-weight: 700;
+}
+
+#twitter a{
+    color: #101828;  
+    font-weight: bold;
+}
+
+#slack{
+    display: none;
+}
+
+#btn__zuri,
+#books,
+#book__python,
+#pitch,
+#book__design,
+#contact {
+  margin: 1rem auto;
+  max-width: 40%;
+  padding: 1.5rem;
+  border: 2px solid #eaecf0;
+  background-color: #eaecf0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #101828;
+}
+
+
+#btn__zuri:hover,
+#books:hover,
+#book__python:hover,
+#pitch:hover,
+#book__design:hover,
+#contact:hover {
+  border: 2px solid #a6a7a8;
+}
+
+main a:hover{
+    color: black;
+}
+#image2{
+    text-align: center;
+    max-width: 95%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+#image22{
+    display: none;
+}
+
+footer{
+  border-top: 1px solid #EAECF0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+
+footer h2{
+    color:#667085;
+    font-size: 18px;
+}
+
+@media (max-width: 775px){
+    .wrapper{
+        margin: 0 auto;
+        width: 100%;
+        height: 100vh;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    #my__twitter,
+    #btn__zuri,
+    #books,
+    #book__python,
+    #pitch,
+    #book__design,
+    #contact {
+        max-width: 85%;
+
+    }
+    #slack{
+        text-align: center;
+    }
+    #shareBtn{
+        display: none;
+    }
+
+    #image2{
+       display: none;
+    }
+
+    #image22{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    #menuBtn{
+        display: inline;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 20px;
+        left: 120px;
+        border-radius: 50%;
+        padding: 0.2rem;
+        border-color: #848586;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+        align-items:flex-start;
+        max-width: 100%;
+        /* padding: 32px 0px 32px 0px; */
+    }
+    footer h2{
+        font-size: 10px;
+        color:#667085;
+    }
+}
